@@ -11,3 +11,5 @@ def subtract(a, b):
     Returns the difference between two numbers.
     """
     return a - b
+
+print(add(2,3))
