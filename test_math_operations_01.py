@@ -17,6 +17,7 @@ class TestMathOperations(unittest.TestCase):
 
     def test_multiply(self):
         self.assertEqual(multiply(1, 1), 1)
+        self.assertEqual(multiply(2, 2), 4)
 
 if __name__ == "__main__":
     unittest.main()
